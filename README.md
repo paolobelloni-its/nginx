@@ -25,37 +25,7 @@ L'utente vede un solo servizio, ma dietro lavorano due applicazioni FastAPI.
 
 ---
 
-## Struttura del progetto
 
-```text
-docker-nginx-lb/
-
-├── compose.yaml
-
-├── api1/
-│   ├── Dockerfile
-│   └── app/
-│       ├── main.py
-│       └── requirements.txt
-
-├── api2/
-│   ├── Dockerfile
-│   └── app/
-│       ├── main.py
-│       └── requirements.txt
-
-└── nginx/
-    └── nginx.conf
-
-# Costruzione e avvio del laboratorio
-
-## Verifica prerequisiti
-
-Verificare che Docker sia installato:
-
-```bash
-docker --version
-```
 
 Verificare che Docker Compose sia disponibile:
 
@@ -70,8 +40,6 @@ docker compose version
 ```bash
 cd docker-nginx-lb
 ```
-
----
 
 ## Struttura del progetto
 
